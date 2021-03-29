@@ -1,0 +1,35 @@
+git init - Inicia uma pasta como repositório git.
+
+---------------------------------
+
+git config --global user.name "rafaellpaula" - (O uso de global é importante para vincular o nome e o e-mail a todos os repositórios automaticamente) -> Caso não quisesse o padrão seria: [git config user.name "rafaellpaula"].
+
+git config --global user.email "r.leal14@gmail.com".
+
+---------------------------------
+
+git config --list - Verifica os usuários já configurados no git.
+
+---------------------------------
+
+git add index.php - Inclui determinado arquivo para ser identificado no repositório - (STAGE AREA).
+
+git add --all - Inclui todos os arquivos da pasta para serem identificados pelo repositório - (STAGE AREA).
+ 
+---------------------------------
+
+git commit -m "criei meu repositorio" - Coloca o arquivo na fila de envio para o repositório superior - (Online ou não).
+
+--------------------------------- 
+ 
+git remote add origin https://github.com/rafaellpaula/php.git - Vincula o repositório local a um repositório global.
+
+---------------------------------
+
+git push origin master - Empurra para o repositório cadastrado as alterações locais.
+
+---------------------------------
+
+git pull origin master - Trás do repositório cadastrado as alterações externas.
+
+
