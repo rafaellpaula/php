@@ -27,6 +27,9 @@ git remote add origin https://github.com/rafaellpaula/php.git - Vincula o reposi
 ---------------------------------
 
 git push origin master - Empurra para o repositório cadastrado as alterações locais.
+git push -u origin main - Comando que faz o mesmo que o anterior mas após alteração.
+
+
 
 ---------------------------------
 
